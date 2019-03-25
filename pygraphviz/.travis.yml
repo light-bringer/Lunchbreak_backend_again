@@ -1,0 +1,41 @@
+language: python
+python:
+  - "2.7"
+  - "3.5"
+  - "3.6"
+  - "pypy"
+addons:
+  apt:
+    packages:
+      - graphviz
+matrix:
+  include:
+    - os: linux
+      python: 3.7
+      dist: xenial
+      sudo: true
+    - os: osx
+      language: generic
+      before_install: brew install graphviz
+  allow_failures:
+    - os: osx
+
+before_install:
+  # create new empty venv
+  - virtualenv -p python ~/venv
+  - source ~/venv/bin/activate
+install:
+  # install required packages
+  - pip install --upgrade pip
+  - pip install -r requirements/test.txt
+  # install pygraphviz
+  - printenv PWD
+  - pip install -e .
+  # show what's installed
+  - python --version
+  - pip list
+script:
+  - nosetests --with-coverage --cover-package=pygraphviz
+  - python setup.py bdist_wheel
+after_success:
+  - coveralls

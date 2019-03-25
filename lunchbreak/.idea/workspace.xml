@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="271ebf63-6406-425b-a8e8-e71e7a3fa1cc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../docker/config/alertmanager/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/config/alertmanager/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/config/prometheus/host.rules" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/config/prometheus/host.rules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/config/prometheus/prometheus.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/config/prometheus/prometheus.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/config/prometheus/targets.rules" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/config/prometheus/targets.rules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/img/bike.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/img/bike.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/img/checklist.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/img/checklist.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/img/checkmark.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/img/checkmark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/img/icons/clock.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/img/icons/clock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/img/icons/dropdown.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/img/icons/dropdown.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/img/icons/heart.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/img/icons/heart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/img/icons/location.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/img/icons/location.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/img/icons/lock-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/img/icons/lock-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/img/icons/person.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/img/icons/person.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/img/icons/pin.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/img/icons/pin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/img/icons/search.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/img/icons/search.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/img/icons/telephone.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/img/icons/telephone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/img/icons/truck.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/img/icons/truck.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/img/logo-header.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/img/logo-header.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/img/logo-login.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/img/logo-login.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/img/store.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/img/store.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/js/html5shiv-printshiv.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/js/html5shiv-printshiv.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../runserver" beforeDir="false" afterPath="$PROJECT_DIR$/../runserver" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lunch/serializers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="184" />
+    <option name="y" value="32" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lunchbreak" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lunchbreak" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lunchbreak" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lunchbreak" type="462c0819:PsiDirectoryNode" />
+              <item name="lunch" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="271ebf63-6406-425b-a8e8-e71e7a3fa1cc" name="Default Changelist" comment="" />
+      <created>1552832536889</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552832536889</updated>
+      <workItem from="1552832538554" duration="48000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="48000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="184" y="32" width="1400" height="1000" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lunch/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

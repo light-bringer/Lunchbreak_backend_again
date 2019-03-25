@@ -16,8 +16,7 @@ started_at = pendulum.now()
 
 # Host
 HOST = os.environ.get('LUNCHBREAK_HOST')
-# print(os.environ.get('LUNCHBREAK_HOST'))
-HOST = '137.74.42.120'
+HOST = '192.168.0.148'
 if not HOST:
     HOST = input('Host: ')
 
@@ -37,7 +36,7 @@ with hide('running', 'output'):
                 capture=True
             )
         )
-        print(git_tag)
+        
         # sys.exit(git_tag)
     git_commit = os.environ.get(
         'TRAVIS_COMMIT',

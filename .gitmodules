@@ -1,8 +1,8 @@
-[submodule "lunchbreak/frontend/mdl"]
-	path = lunchbreak/frontend/mdl
-	url = git@github.com:google/material-design-lite
-	branch = tracking-mdl-1.x
-[submodule "lunchbreak/frontend/intl-tel-input"]
-	path = lunchbreak/frontend/intl-tel-input
-	url = git@github.com:jackocnr/intl-tel-input.git
-	branch = tracking.master
+# [submodule "lunchbreak/frontend/mdl"]
+# 	path = lunchbreak/frontend/mdl
+# 	url = git@github.com:google/material-design-lite
+# 	branch = tracking-mdl-1.x
+# [submodule "lunchbreak/frontend/intl-tel-input"]
+# 	path = lunchbreak/frontend/intl-tel-input
+# 	url = git@github.com:jackocnr/intl-tel-input.git
+# 	branch = tracking.master
