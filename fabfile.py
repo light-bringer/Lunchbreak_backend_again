@@ -1,27 +1,29 @@
 import getpass
 import json
 import os
-
+import sys 
 import requests
 from fabric.api import env, lcd, local, run, sudo
 from fabric.context_managers import cd, hide, quiet, settings
 from fabric.contrib import django
 from fabric.contrib.files import exists
 from fabric.operations import put
-from pendulum import Pendulum
+import pendulum
 
 django.project('Lunchbreak')
 django.settings_module('lunchbreak.Lunchbreak.settings')
-started_at = Pendulum.now()
+started_at = pendulum.now()
 
 # Host
 HOST = os.environ.get('LUNCHBREAK_HOST')
+# print(os.environ.get('LUNCHBREAK_HOST'))
 HOST = '137.74.42.120'
 if not HOST:
     HOST = input('Host: ')
 
 # Fabric environment
 env.hosts = [HOST]
+
 env.user = 'root'
 env.shell = '/bin/bash -c -l'
 
@@ -35,6 +37,8 @@ with hide('running', 'output'):
                 capture=True
             )
         )
+        print(git_tag)
+        # sys.exit(git_tag)
     git_commit = os.environ.get(
         'TRAVIS_COMMIT',
         local(
