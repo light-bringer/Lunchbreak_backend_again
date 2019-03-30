@@ -19,7 +19,7 @@ billiard==3.5.0.2         # via celery
 celery==4.0.2
 cffi==1.10.0              # via bcrypt, cryptography
 contextlib2==0.5.5        # via raven
-cryptography==1.9
+cryptography==2.6.1
 django-appconf==1.0.2     # via django-compressor, django-imagekit
 django-compressor==2.1.1
 django-imagekit==3.3

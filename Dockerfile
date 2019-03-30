@@ -1,18 +1,18 @@
 FROM python:3.5
 ENV PYTHONUNBUFFERED 1
 
-MAINTAINER Andreas Backx
+#MAINTAINER Andreas Backx
 
-RUN mkdir /code
+#RUN mkdir -p /code
 WORKDIR /code
 
 # uWSGI
 # apt-get update and install on same line to prevent caching issues
-RUN apt-get update && apt-get install -y \
-    libpcre3 \
-    libpcre3-dev \
-&& rm -rf /var/lib/apt/lists/* \
-&& pip install uwsgi
+#RUN apt-get update && apt-get install -y \
+#    libpcre3 \
+#    libpcre3-dev \
+#&& rm -rf /var/lib/apt/lists/* \
+RUN pip install uwsgi
 
 # Arguments
 ARG version

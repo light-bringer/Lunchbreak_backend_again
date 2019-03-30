@@ -16,7 +16,7 @@ started_at = pendulum.now()
 
 # Host
 HOST = os.environ.get('LUNCHBREAK_HOST')
-HOST = '192.168.0.148'
+HOST = '127.0.0.1'
 if not HOST:
     HOST = input('Host: ')
 
