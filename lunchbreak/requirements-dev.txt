@@ -88,7 +88,7 @@ raven==6.0.0
 rcssmin==1.0.6            # via django-compressor
 requests==2.9.1
 responses==0.5.1
-rjsmin==1.0.12            # via django-compressor
+rjsmin==1.1.0           # via django-compressor
 simplegeneric==0.8.1      # via ipython
 six==1.12.0               # via bcrypt, cryptography, django-extensions, django-imagekit, django-livereload-server, fabric3, libsass, mock, pip-tools, prompt-toolkit, pyopenssl, python-dateutil, responses, traitlets, twilio
 tblib==1.3.2

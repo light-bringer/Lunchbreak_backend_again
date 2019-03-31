@@ -3,7 +3,7 @@ ENV PYTHONUNBUFFERED 1
 
 #MAINTAINER Andreas Backx
 
-RUN sudo mkdir -p /code
+RUN mkdir /code
 WORKDIR /code
 
 # uWSGI
