@@ -11,7 +11,7 @@ from fabric.operations import put
 import pendulum
 
 django.project('Lunchbreak')
-django.settings_module('lunchbreak.Lunchbreak.settings')
+django.settings_module('/home/ec2-user/var/www/lunchbreak/Lunchbreak/settings')
 started_at = pendulum.now()
 
 # Host
