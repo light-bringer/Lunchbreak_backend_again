@@ -32,7 +32,7 @@ DB_NAME = get_variable(
 )
 DB_USER = get_variable('DB_USER', DB_NAME)
 DB_PASS = get_variable('DB_PASS', DB_NAME)
-DB_HOST = get_variable('DB_HOST', '18.224.184.154')
+DB_HOST = get_variable('DB_HOST', '127.0.0.1')
 
 DATABASES = {
     'default': {
@@ -41,7 +41,7 @@ DATABASES = {
         'USER': DB_USER,
         'PASSWORD': DB_PASS,
         'HOST': DB_HOST,
-        'PORT': '443',
+        'PORT': '5432',
     },
 }
 
